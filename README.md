@@ -1,6 +1,6 @@
 # soundLocalizationHardware
 
-Currend draft of hydrophone signal condititioning hardware
+Current draft of hydrophone signal condititioning hardware
 
 **TODO: **
 
