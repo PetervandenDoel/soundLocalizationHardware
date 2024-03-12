@@ -24,6 +24,7 @@ A low noise, low offset, low bias current quad opamp was chosen and routing was 
 ![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/0e4bf928-a318-40b9-a115-a6704e7e4156)
 
 
+The preamplifiers are currently being tested, the gain of the input charge amplifier stage is coming out to be much larger than expected and there appear to be stability issues when the hydrophone is outside of the water, we are currently profiling the amplifiers and investigating whether or not the current design has good enough phase coherence or if the phase response can be calculated reliably.
 
 In hindsight, a four stage amplifier may have been unnecessary but it was chosen to allow for multiple preamplifier stages or buffering. When in use the amplifier's final stage ended up being manually soldered to the input terminal of the LTC 1562. 
 
@@ -32,6 +33,16 @@ In hindsight, a four stage amplifier may have been unnecessary but it was chosen
 # Filter design
 
 the LTC 1562 contains 4 configurable second order filter blocks. Depending on the use of resistors and capacitors and which one is routed as the output one can achieve low pass high pass or bandpass configurations. On all the circuit boards here, the filter IC is routed to only allow for low pass or bandpass(Terminal 2 of each stage is routed as the output). This was a challenging component to solder by hand with no stencil but it was done.
+
+
+![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/a4d17e56-3094-4eea-9322-d0fe9d5481bf)
+testing the filter by injecting white noise on the input and performing a fourier transform of the output to mimic bode plot
+
+
+LT spice simulation of the device under test
+![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/1bbd13ef-c247-40f6-8217-948f32eaf71a)
+
+
 
 Unfortunately, we will be transitioning away from this design because the price of the LTC 1562 increased from $20 to $45.00 in the past few months and we need 5 of them. We plan to transition towards using it the LTC 1563-2 which only allows for lowpass and bandpass stages, and require some additional buffering on the output in order to drive any load above a few picofarads(EG oscilloscope probes on 1X as opposed to 10X setting), but only costs $20.
 
