@@ -5,7 +5,7 @@ testbench boards for piezo hydrophone signal conditioning hardware. It is quite 
 
 ![20240310_190803_HDR_1](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/dfb8413c-6320-42be-a106-c4a3e5a5b15c)
 
-
+One of the resistors on the LTC1562 on the fishPCB is broken in this image, this isn't how it it when running
 
 ![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/37b3d958-6139-4155-a68c-3f8d2bf308d6)
 
@@ -38,7 +38,12 @@ Unfortunately, we will be transitioning away from this design because the price 
 
 # Aesthetics and user friendlyness
 
-Silk screens were copied between the top and bottom of the board which ended up being very useful when soldering and de-soldering. The most important nodes that jumper wires were frequently soldered into to probe were labeled with arrows or other things pointing to those nodes to make them easy to see. Since these circuit boards serve as test benches for different signal conditioning hardware designs, it is essential that components can be soldered and desoldered from the circuit board easily and that things are clearly labeled so that one doesn't have to open Altium designer just to use the circuit boards.
+Silk screens were copied between the top and bottom of the board which ended up being very useful when soldering and de-soldering. The most important nodes that jumper wires were frequently soldered into to probe were labeled with arrows or other things pointing to those nodes to make them easy to see. 
+![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/9d0749e7-c1bc-4dee-b06d-18bf826acc01)
+
+![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/b9287014-3b08-48c6-923e-dc5ec2ad3ceb)
+
+Since these circuit boards serve as test benches for different signal conditioning hardware designs, it is essential that components can be soldered and desoldered from the circuit board easily and that things are clearly labeled so that one doesn't have to open Altium designer just to use the circuit boards.
 
 
 
