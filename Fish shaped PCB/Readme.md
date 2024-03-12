@@ -5,7 +5,8 @@ The fish shaped was imported into altium by putting a fish picture in Microsoft 
 The thin on the original fish picture ended up coming out a bit too thin and JLC said there might be risk of breakage so that part was filled in extra in Microsoft paint and another DXF was generated to fix the problem. It is easier to modify the image in Microsoft paint than make a new DXF than it is to actually modify the mechanical one layer in altium.
 
 <img width="127" alt="important" src="https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/2b6700b5-c609-4f4a-a5c6-196dde4b8647">
-Template image
+
+This is the template image
 
 ![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/1822b4ae-5b1a-4781-a0a4-3dc5ded36800)
 
