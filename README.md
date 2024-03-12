@@ -46,6 +46,7 @@ LT spice simulation of the device under test, note that a low input voltage was 
 
 
 For the surface mount designs 0402 SMD pads are placed at every node where a resistor or capacitor needs to be placed for configuring the filter. the reason why two sets of pads were routed is because standard resistor and capacitor values on their own do not allow for a good Bessel Butterworth or Chebyshev response at a sufficently customizable frequency. I found that I was able to get good Butterworth chebyshev and Bessel responses in simulations using standard resistor and capacitor values provide that I allowed myself to put two of them in series on each terminal.
+
 ![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/1bda8f32-d33d-444e-9cb0-703704e336ba)
 
 
