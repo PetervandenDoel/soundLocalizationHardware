@@ -13,7 +13,8 @@ Preamp design
 
 A low noise, low offset, low bias current quad opamp was chosen and routing was done to allow the user to easily connect in either a charge amplifier or inverting amplifier configuration on the cascaded stages. It is possible to achieve non inverting or buffer configurations, but this would require strapping some terminals together with wires in ways not achieved by the default PCB routing. This image in Microsoft paint demonstrates how to do this.
 
-![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/3a45d28b-376e-47a6-939d-8c166aad6af4)
+![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/71ca34d7-5305-4f47-9256-ee673b2531e9)
+
 
 ![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/0e4bf928-a318-40b9-a115-a6704e7e4156)
 
