@@ -41,7 +41,9 @@ testing the filter by injecting white noise on the input and performing a fourie
 
 
 ![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/1bbd13ef-c247-40f6-8217-948f32eaf71a)
-LT spice simulation of the device under test
+LT spice simulation of the device under test, note that a low input voltage was used in actual testing and so the Lt spice plot has all of its values shifted up compared to the test data
+
+
 
 Unfortunately, we will be transitioning away from this design because the price of the LTC 1562 increased from $20 to $45.00 in the past few months and we need 5 of them. We plan to transition towards using it the LTC 1563-2 which only allows for lowpass and bandpass stages, and require some additional buffering on the output in order to drive any load above a few picofarads(EG oscilloscope probes on 1X as opposed to 10X setting), but only costs $20.
 
