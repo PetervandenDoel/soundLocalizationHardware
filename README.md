@@ -77,7 +77,11 @@ the circuit boards were made in funny shapes just to keep it fresh and give us a
 
 # Power considerations 
 
-In order to allow maximum dynamic range and for ease of design and use, dual +-5 Volt supplies are used. The large capacitors on the input of the power are used to decouple the circuit from the inductance of long windy wires that we inevitably ended up using to connect the circuit boards. Very small 0402 decoupling capacitors were used on all the IC's. They were soldered by hand which is about as much fun as it sounds like, future designs will probably use 0805 instead. 
+In order to allow maximum dynamic range and for ease of design and use, dual +-5 Volt supplies are used. The large capacitors on the input of the power are used to decouple the circuit from the inductance of long windy wires that we inevitably ended up using to connect the circuit boards. 
+![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/dcc9eaf1-ea96-4100-af99-2778049d2748)
+
+
+Very small 0402 decoupling capacitors were used on all the IC's. They were soldered by hand which is about as much fun as it sounds like, future designs will probably use 0805 instead. 
 
 
 # Saftey considerations for the sensitive LTC1562
