@@ -7,6 +7,11 @@ testbench boards for piezo hydrophone signal conditioning hardware. It is quite 
 
 
 
+![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/37b3d958-6139-4155-a68c-3f8d2bf308d6)
+
+![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/195ba782-8f36-4b33-aea0-edb79cd72258)
+
+
 This design consists of a highly configurable four stage amplifier connected to a highly configurable 4 stage filter IC LTC1562.
 
 # Preamp design
