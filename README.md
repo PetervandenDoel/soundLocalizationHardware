@@ -9,7 +9,7 @@ testbench boards for piezo hydrophone signal conditioning hardware
 
 This design consists of a highly configurable four stage amplifier connected to a highly configurable 4 stage filter IC LTC1562.
 
-Preamp design
+#Preamp design
 
 A low noise, low offset, low bias current quad opamp was chosen and routing was done to allow the user to easily connect in either a charge amplifier or inverting amplifier configuration on the cascaded stages. It is possible to achieve non inverting or buffer configurations, but this would require strapping some terminals together with wires in ways not achieved by the default PCB routing. This image in Microsoft paint demonstrates how to do this.
 
