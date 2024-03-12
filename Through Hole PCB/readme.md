@@ -13,4 +13,4 @@ The board size was kept below 10 by 10 centimeters in order to ensure that JLCPC
 
 We ended up getting a short to one of the exposed stitching vias, they were simply added for aesthetics but in hindsight they were troublesome
 
-04/02 components are incredibly annoying to solder so future designs will have much bigger passive parts
+0402 components are incredibly annoying to solder so future designs will have much bigger passive parts
