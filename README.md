@@ -48,6 +48,10 @@ LT spice simulation of the device under test, note that a low input voltage was 
 Unfortunately, we will be transitioning away from this design because the price of the LTC 1562 increased from $20 to $45.00 in the past few months and we need 5 of them. We plan to transition towards using it the LTC 1563-2 which only allows for lowpass and bandpass stages, and require some additional buffering on the output in order to drive any load above a few picofarads(EG oscilloscope probes on 1X as opposed to 10X setting), but only costs $20.
 
 
+![image](https://github.com/PetervandenDoel/soundLocalizationHardware/assets/73015873/a5cc069d-a7aa-410d-ad23-b59d214685cf)
+This picture is really cool, you can watch it remove all but the fundamental fourier coefficients from this input square wave, this shows promise for recovering signals from saturated amplifiers provided that the phase shift of the filter at the fundamental frequency can be reliably accounted for.
+
+
 # Aesthetics and user friendlyness
 
 Silk screens were copied between the top and bottom of the board which ended up being very useful when soldering and de-soldering. The most important nodes that jumper wires were frequently soldered into to probe were labeled with arrows or other things pointing to those nodes to make them easy to see. 
