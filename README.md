@@ -28,7 +28,7 @@ In hindsight, a four stage amplifier may have been unnecessary but it was chosen
 
 the LTC 1562 contains 4 configurable second order filter blocks. Depending on the use of resistors and capacitors and which one is routed as the output one can achieve low pass high pass or bandpass configurations. On all the circuit boards here, the filter IC is routed to only allow for low pass or bandpass(Terminal 2 of each stage is routed as the output). This was a challenging component to solder by hand with no stencil but it was done.
 
-Unfortunately, we will be transitioning away from this design because the price of the LTC 1562 increased from $20 to $45.00 in the past few months and we need 5 of them. We plan to transition towards using it the LTC 1563-2 which only allows for lowpass and bandpass stages, and require some additional buffering on the output in order to drive any load above a few picofarads, but only costs $20.
+Unfortunately, we will be transitioning away from this design because the price of the LTC 1562 increased from $20 to $45.00 in the past few months and we need 5 of them. We plan to transition towards using it the LTC 1563-2 which only allows for lowpass and bandpass stages, and require some additional buffering on the output in order to drive any load above a few picofarads(EG oscilloscope probes on 1X as opposed to 10X setting), but only costs $20.
 
 
 # Aesthetics and user friendlyness
