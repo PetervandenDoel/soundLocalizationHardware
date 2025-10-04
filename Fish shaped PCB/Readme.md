@@ -1,4 +1,4 @@
-This is a fish shaped version of the through hole PCB. This one ended up being more convenient to use than the non fish shaped version simply because there were no exposed stitches that created the risk of shorting.
+This is a fish shaped version of the through hole PCB. This one ended up being more convenient to use than the non fish shaped version simply because there were no exposed stitches that created the risk of shorting. It is, however, hard to hold in a vise and somewhat sharp so be careful.
 
 The fish shaped was imported into altium by putting a fish picture in Microsoft paint, filling it in black, using an online PNG to DXF converter, importing the outline onto the mechanical one layer in altium from the DXF file, and then defining board shape based on selected objects.
 
