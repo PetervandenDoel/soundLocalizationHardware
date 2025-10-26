@@ -91,7 +91,7 @@ The LTC 1562 datasheet strongly recommends against saturating the output stage o
 
 Reading forum posts about sudden voltages due to thermal stresses on piezo hydrophones being dipped in water, TVS diodes were used on the inputs of the amplifier and filter. These were also 0402. 
 
-Due to exposed stitching vias on the non fish shaped through hole PCB, one of the terminals of the LTC 1562 got shorted to ground and the IC was destroyed, thankfully we have two. A pretty silly mistake considering that the stitching did nothing for signal integrity and was essentially just aesthetics. 
+Due to exposed stitching vias on the non fish shaped through hole PCB, one of the terminals of the LTC 1562 could get shorted, its worth exercising care.
 
 
 
